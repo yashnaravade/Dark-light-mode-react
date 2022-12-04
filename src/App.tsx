@@ -1,26 +1,23 @@
-import React from 'react'
+import React from "react";
 import "./App.css";
-import Form from './components/Form'
+import Form from "./components/Form";
 
 export const ThemeContext = React.createContext("null");
 
-
 function App() {
-
-  const [theme, setTheme] = React.useState("dark");
+  const [theme, setTheme] = React.useState("light");
 
   const toggleTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
-  }
+  };
 
   return (
-    <ThemeContext.Provider value={{theme, toggleTheme}}>
-
-    <div className="App" id={theme}>
-    <Form />
-    </div>  
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <div className="App" id={theme}>
+        <Form />
+      </div>
     </ThemeContext.Provider>
-  )
+  );
 }
 
-export default App
+export default App;
