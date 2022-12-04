@@ -9,10 +9,10 @@ function Form() {
       <form className="form1">
         <input className="username" type="text" placeholder="Username" />
         <input className="password" type="password" placeholder="Password" />
-        <a className="submit" id="center">
+        <a className="submit">
           Sign in
         </a>
-        <p className="forgot" >
+        <p className="forgot" id="center">
           <a href="#">Forgot Password? </a>
         </p>
       </form>
