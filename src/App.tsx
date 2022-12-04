@@ -3,7 +3,7 @@ import "./App.css";
 import Form from "./components/Form";
 import ReactSwitch from "react-switch";
 
-export const ThemeContext = React.createContext("null");
+export const ThemeContext = React.createContext({}); 
 
 function App() {
   const [theme, setTheme] = React.useState("dark");

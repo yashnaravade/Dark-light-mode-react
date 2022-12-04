@@ -14,8 +14,16 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "types": [
+      "vite/client",
+    ]
+    
+      
+    
   },
   "include": ["src"],
+  "exclude": ["**/*.test.ts", "**/*.test.tsx", "**/*.spec.ts", "**/*.spec.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
+  
 }

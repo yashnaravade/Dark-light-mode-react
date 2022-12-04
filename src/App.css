@@ -234,6 +234,13 @@ a {
   text-decoration: none;
 }
 
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 @media (max-width: 600px) {
   .main {
     border-radius: 0px;

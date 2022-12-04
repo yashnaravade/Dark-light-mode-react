@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://yashnaravade.github.io/dark-light-mode-react",
+  "homepage": "http://{yashnaravade}.github.io/{dark-light-mode-react}",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "predeploy" : "npm run build",
-"deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "preview": "vite preview"
   },
   "dependencies": {
