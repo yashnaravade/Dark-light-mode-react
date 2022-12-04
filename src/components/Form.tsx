@@ -1,5 +1,7 @@
 import React from "react";
-import "./Form.css";
+// import "./Form.css";
+import "../App.css";
+
 function Form() {
   return (
     <>
